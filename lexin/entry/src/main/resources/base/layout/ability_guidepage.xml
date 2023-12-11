@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:id="$+id:main_content"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1">
+        <!--需要切换的页面的内容-->
+    </StackLayout>
+
+    <Image
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:image_src="#cccccc">
+        <!--分割线-->
+    </Image>
+
+    <DirectionalLayout
+        ohos:top_margin="10vp"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+        <!--home-->
+        <DirectionalLayout
+            ohos:id="$+id:icon_home"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:orientation="vertical"
+            ohos:weight="1">
+
+            <Button
+                ohos:id="$+id:home_img"
+                ohos:layout_alignment="center"
+                ohos:height="26vp"
+                ohos:width="26vp"
+                ohos:background_element="$media:icon_home"></Button>
+            <Text
+                ohos:id="$+id:home_txt"
+                ohos:layout_alignment="center"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_size="10fp"
+                ohos:text="home"></Text>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:icon_me"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:orientation="vertical"
+            ohos:weight="1">
+
+            <Button
+                ohos:id="$+id:me_img"
+                ohos:layout_alignment="center"
+                ohos:height="26vp"
+                ohos:width="26vp"
+                ohos:background_element="$media:icon_me"></Button>
+            <Text
+                ohos:id="$+id:me_txt"
+                ohos:layout_alignment="center"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_size="10fp"
+                ohos:text="me"></Text>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

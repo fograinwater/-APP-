@@ -1,0 +1,48 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "guidepageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "guidepageability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_GuidePageAbility",
+      "value": "entry_GuidePageAbility"
+    },
+    {
+      "name": "add",
+      "value": "+"
+    },
+    {
+      "name": "contact_edit",
+      "value": "Edit Contact"
+    },
+    {
+      "name": "save",
+      "value": "Save"
+    },
+    {
+      "name": "edit",
+      "value": "Edit"
+    },
+    {
+      "name": "device_edit",
+      "value": "Edit Device"
+    }
+  ]
+}

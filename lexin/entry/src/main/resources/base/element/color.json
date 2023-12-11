@@ -1,0 +1,21 @@
+{
+  "color":[
+    {
+      "name":"red",
+      "value":"#ff0000"
+    },
+    {
+      "name":"red_ref",
+      "value":"$color:red"
+    },
+    {
+      "name":"color_theme",
+      "value":"#91a17b"
+    }
+    {
+      "name":"color_bg",
+      "value":"#34AC84"
+    }
+  ]
+}
+
